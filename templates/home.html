@@ -1,0 +1,113 @@
+
+
+{% extends 'base.html' %} 
+{% block header %}<h1>Welcome to the Homepage</h1>{% endblock header %} 
+
+{% block content %}
+<div class="container py-4">
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Work Life</h1>
+        <p class="col-md-8 fs-4" style="color: #000000">I’ve had a variety of jobs, the longest stint being in insurance (7+ years) as a CSR just prior to starting at KRESA as a MiTech technician. Anything computer related is exciting to me, especially coding. I’m excited to be at KRESA, turning a hobby into a career.</p>
+        {% comment %} <button class="btn btn-primary btn-lg" type="button">Example button</button> {% endcomment %}
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-bg-dark rounded-3">
+          <h2>Family Life</h2>
+          <p style="color: #ffffff">I’m Aaron Whitaker and my wife Jen and I have 2 (soon 3!) children. Cooper is our oldest son, my daughter Willow is our soon-to-be middle child, and Wilder is our soon-to-be youngest.</p>
+          {% comment %} <button class="btn btn-outline-light" type="button">Example button</button> {% endcomment %}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <div>
+            <h2>My Favorites</h2>
+            <div class="bd-example">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Favorite book genres
+                  </button>
+                </h4>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>I enjoy reading fiction, mostly Sci-Fi and fantasy.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Favorite movies & TV
+                  </button>
+                </h4>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Hitchhikers Guild to the Galaxy is my favorite movie. Alien, Blade Runner, The Thing, 2001 A Space Odyssey, Star Wars, Star Trek (TNG and Strang New Worlds is solid so far). I love movies with creature effects. </strong> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">                        Favorite video games
+                  </button>
+                </h4>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Modern - Splitgate, BioShock (maybe I'm old and this goes in retro now?), Jamestown, Bastion, Fez, Battlefield/front, Horizon Zero Dawn, Castel Crashers. <br/><br/>
+                      Retro – Metal Slug, Jedi Power Battles, Jedi Knight 2, Jedi Outcast (+Jedi Academy), Crash Bandicoot, GoldenEye64, Lode Runner. 
+                      </strong> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Favorite music
+                  </button>
+                </h4>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Anything but country.</strong> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Favorite beverages
+                  </button>
+                </h4>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Coffee or Tea. Sometimes beer on the weekends. </strong> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Favorite food
+                  </button>
+                </h4>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>I’m not picky but enjoy I good food. A good hamburger is hard to come by. </strong> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock content%}
+
+{% comment %} Aaron Whitaker
+CIS218 - Web Application Programming
+9/22/2022 {% endcomment %}
